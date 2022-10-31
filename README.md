@@ -1,9 +1,10 @@
 # Muiltimeter
+
 - Simple multimeter that can measure :
-                  (current-Voltage-Resistance-Frequency
-                  -Inductance-Capacitance) .
-         - By using the virtual terminal we print the modes for  the                                   
-                user ,  that he can  choose between them.
+
+                  (current-Voltage-Resistance-Frequency-Inductance-Capacitance) .
+                  
+         - By using the virtual terminal we print the modes for  the user ,  that he can  choose between them.
          - 0-->Ammeter
          - 1-->Voltameter
          - 2-->Ohmmeter
@@ -12,7 +13,9 @@
          - 5-->Cap-meter
          - If the user wants to change the type of the multimeter  
                Press q and then rechoose the mode .
+               
 • components :
+
        - ATMEGA32
        - 1N4001 "Diode"
        - ACS712 "Current Sensor"
@@ -24,13 +27,17 @@
        - LM358N "OP-AMP"
        - virtual terminal
        - Multiplixer (simple one"2:1" using 2 AND & OR gates)
+
 • Used Drivers :
+
        - DIO                  "MCAL"
        - ADC                 "MCAL'
        - ICU(Timer1)     "MCAL"
        - UART               ''MCAL"
        - LCD                  "HAL" 
+       
 • Notes :
+
        - If the user entered a number out of range (0:6) , We print 
                invalid choice and make him choose again .
        - If we want to emblements  it we should change the OP- 
