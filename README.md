@@ -1,8 +1,8 @@
 # Muiltimeter
 
-- Simple multimeter that can measure :
+- Simple multimeter that can measure (current-Voltage-Resistance-Frequency-Inductance-Capacitance) :
 
-                  (current-Voltage-Resistance-Frequency-Inductance-Capacitance) .
+   
                   
          - By using the virtual terminal we print the modes for  the user ,  that he can  choose between them.
          - 0-->Ammeter
