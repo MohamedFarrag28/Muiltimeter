@@ -1,4 +1,4 @@
-# Muiltimeter
+# Multimeter
 
 - Simple multimeter that can measure (current-Voltage-Resistance-Frequency-Inductance-Capacitance) :
 
